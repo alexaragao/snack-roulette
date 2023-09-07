@@ -71,3 +71,6 @@ yarn-error.log
 # Firebase Google Service
 google-services.json
 GoogleService-Info.plist
+
+# Eslint cache
+.eslintcache

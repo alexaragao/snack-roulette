@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": "@react-native",
+  "rules": {
+    "no-bitwise": "off",
+    "no-console": "warn",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}
