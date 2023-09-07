@@ -27,9 +27,11 @@ class SQLiteService {
         tx.executeSql(
           query,
           params,
+          // eslint-disable-next-line @typescript-eslint/no-shadow
           (tx, results) => {
             resolve(results);
           },
+          // eslint-disable-next-line @typescript-eslint/no-shadow
           (tx, error) => {
             reject(error);
           }
