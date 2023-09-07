@@ -45,6 +45,10 @@ target 'SnackRoulette' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  # @react-native-firebase/app
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
+
   target 'SnackRouletteTests' do
     inherit! :complete
     # Pods for testing
